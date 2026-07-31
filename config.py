@@ -1,37 +1,41 @@
 SEARCH_CONFIG = {
     "keywords": "embedded firmware OR software engineer",
     "keywords_list": [
-        "Embedded Software Engineer",
-        "Embedded Firmware Engineer",
-        "Firmware Development Engineer",
+        # English — international / Europe
         "Firmware Engineer",
-        "RTOS Engineer",
-        "FREERTOS Engineer",
-        "Programador C/C++",
-        "Ingeniero Electronico Firmware",
-        "Ingeniero Desarrollo Embebido",
-        "Ingeniero Investigacion Electronico",
+        "Senior Firmware Engineer",
+        "Embedded Software Engineer",
+        "Embedded Systems Engineer",
+        "Embedded Firmware Engineer",
+        "Electronic Design Engineer",
+        "Firmware RT systems engineer",
+        "Embedded Software Engineer - RTOS Development / Zephyr",
+        "Lead Embedded Software Developer",
+        # Spanish — LATAM / Spain
         "Ingeniero de Software Embebido",
-        "Desarrollador Firmware Embebido",
+        "Ingeniero Firmware",
+        "Ingeniero de Sistemas Embebidos",
+        "Desarrollador Firmware",
         "Desarrollador Software Embebido",
-        "Desarrollador C/C++",
-        "Desarrollador RTOS",
-        "Engineering Manager",
-        "Tech Lead Embedded",
+        "Ingeniero Electronico",
     ],
     "locations": [
+        # LATAM
         "Argentina",
-        "Buenos Aires",
         "Uruguay",
+        "Latin America",
+        # Spain
+        "Spain",
         "Sevilla",
         "Valencia",
-        "Latam",
+        # Europe (remote)
+        "European Union",
     ],
     "remote": ["2"],
     "experience": ["3", "4"],
     "job_type": ["F"],
-    "limit_first_run": 50,
-    "limit_incremental": 15,
+    "limit_first_run": 100,
+    "limit_incremental": 50,
     "filters": {
         "title_domain": ["embedded", "firmware", "hardware", "FPGA", "MCU", "RTOS",
                          "embebido", "electronico", "electrónico", "IoT"],
@@ -59,5 +63,10 @@ SEARCH_CONFIG = {
         ],
     }
 }
+
+WISHLIST_COMPANIES = [
+    "BairesDev",
+    "Globant",    
+]
 
 SCHEDULE_HOURS = 12

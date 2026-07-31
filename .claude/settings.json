@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Edit(~/.claude/skills/changelog-generator/**)",
+      "Edit(~/.claude/skills/competitive-ads-extractor/**)",
+      "Edit(~/.claude/skills/content-research-writer/**)",
+      "Edit(~/.claude/skills/developer-growth-analysis/**)",
+      "Edit(~/.claude/skills/domain-name-brainstormer/**)"
+    ]
+  }
+}
